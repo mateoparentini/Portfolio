@@ -1,0 +1,184 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+#about {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+
+
+.wrapper {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinea los hijos a la izquierda */
+}
+.typewriter h1 {
+  font-size: 115px;
+  margin: 0 0 20px 0;
+  height: 150px;
+}
+
+  .socials {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+  }
+  .socials li {
+    display: inline-block;
+  }
+  .boton-cv {
+    background-color: #000000;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+   
+  }
+  
+  .boton-cv:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+.typewriter {
+    font-family: monospace;
+    font-size: 34px;
+    width: 18ch; /* Número de caracteres visibles */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(40) 1s infinite alternate,
+               blink 0.7s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 40ch }
+  }
+  .barra-movimiento {
+    width: 100%;
+    height: 85px;
+    overflow: hidden;
+    background-color: #eeeeee;
+    position: relative;
+  }
+  
+  .contenido {
+    display: flex;
+    gap: 20px;
+    animation: deslizar 3s infinite alternate ease-in-out;
+  }
+  
+  .contenido img {
+    height: 80px;
+    width: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Animación: va hacia la izquierda y vuelve */
+  @keyframes deslizar {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(53%);
+    }
+  }
+
+  
+  #proyectos {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .proyectos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Permite que bajen si no entran */
+  }
+  
+  .proyecto {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .proyecto h2 {
+    text-align: center;
+    }
+   
+    .tech-stack span {
+      background-color: #e0e0e0;
+      color: #333;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    #proyectos {
+      padding: 40px;
+      text-align: center;
+    }
+    
+    .certificados {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+      flex-wrap: wrap; /* Permite que bajen si no entran */
+    }
+    
+    .certificado {
+      background-color: #ffffff;
+      padding: 20px;
+      width: 300px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .certificado h2 {
+      text-align: center;
+      }
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+.git img{
+  height: 40px;
+  width: auto;
+}
+.linkedin img {
+  height: 40px;
+  width: auto;
+}
+
